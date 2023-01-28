@@ -1,7 +1,84 @@
-<body>
-    <div id="content">
-        <header>
-    . . .
-        </footer>
-    </div>
-</body> M
+#content {
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+nav a{
+    text-align: center;
+    background-color: #fff;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #fff
+}
+
+body {
+    background-color: #fff;
+  }
+  
+  header {
+    background-color: #396E94;
+  }
+  
+  nav a:hover {
+    background-color: #1dabda;
+    color: cadetblue;
+  }
+  
+  .book, .join {
+    background-color: #fff;
+    color: #396E94;
+  }
+  
+  .book:hover, .join:hover {
+    background-color: #ddd;
+    color: cadetblue;
+  }
+  
+  
+  .msg {
+    background-color: #E7C24F;
+  }
+  
+  footer {
+    background-color: #fff;
+    color: #396E94 ;
+  }
+
+.home-title{
+    color: #396E94;
+}
+
+h4{
+    color: #396E94;
+}
+
+.msg h2{
+    color: #396E94;
+}
+
+.msg p{
+    color: #396E94;
+}
+
+footer a{
+    color: #70b62b;
+}
+
+footer a:hover{
+    color: #70b62b;
+}
