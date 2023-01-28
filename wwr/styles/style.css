@@ -1,5 +1,4 @@
 #content {
-    width: 90%;
     max-width: 1600px;
     margin: 0 auto;
 
@@ -32,6 +31,7 @@ body {
   }
 
 .logo {
+
     width:80px;
 }
 
@@ -41,6 +41,8 @@ body {
 }
 
 #hero-img {
+    align-items: center;
+    
     width:100%;
 }
   
