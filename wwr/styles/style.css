@@ -1,7 +1,10 @@
+@import url(https://www.cssfontstack.com/);
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
-
+    display: auto;
+    align-items: center;
 }
 
 nav a{
@@ -30,9 +33,11 @@ body {
     background-color: #fff;
   }
 
-.logo {
-
+#logo{
+   align-items: center;
     width:80px;
+    display: auto;
+
 }
 
 .icon {
@@ -42,15 +47,16 @@ body {
 
 #hero-img {
     align-items: center;
-    
+
     width:100%;
 }
   
-  header {
+header {
+    display: auto;
     background-color: #396E94;
   }
   
-  nav a:hover {
+nav a:hover {
     background-color: #1dabda;
     color: cadetblue;
   }
@@ -109,3 +115,7 @@ footer p a:hover {
     text-decoration: underline;
 }    
    
+#home-grid{
+    display: grid;
+    align-items: center;
+}
