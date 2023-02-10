@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    z-index: 5;  
+    background-color:aliceblue;  
+}
+.grid-pic{
+    display:auto;
+    
+}
+
+#tart{
+    position: absolute
+}
+
+.cherry{
+    background-color:gray;
+    grid-column: 2;
+
+}
+
+body {
+    font-family: 'Grandstander', cursive;
+font-family: 'Grenze', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+h2 {
+    font-size: 9.6em;
+    text-align: right;
+}
+
+
+h4 {
+    font-size: 5.3em;
+    color: red;
+    text-align: center;
+}
+
