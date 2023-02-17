@@ -1,0 +1,49 @@
+
+*{
+    box-sizing: border-box;
+    }
+    
+h1{
+    grid-row: 1;
+    font-size: 2em;
+}
+
+#paragraph{
+    display: block;
+    grid-row: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+#hello{
+    font-size: 3em;
+    background-color: blue;
+    justify-content: center;
+    color: white;
+}
+
+.china{
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    margin: 50px;
+    background-color: gray;
+    border: solid 2px black;
+    border-radius: 30px;
+    color: purple;
+    padding-right: 50px;
+    
+    
+}
+
+.china h1{
+    color: orange;
+    }
+
+.china image{
+    width: 100%;
+    padding: 15px;
+}
+

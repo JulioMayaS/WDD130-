@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../wrafting"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wwr"
+	}
+}
