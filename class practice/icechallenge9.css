@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(11, 11, 11);
+}
+
+.post {
+    border-radius: 20px;
+    margin: auto;
+    background-color: rgb(246, 237, 238);
+    width: 33%;
+    text-align: center;
+
+}
+
+.post img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+
+.bottom {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    background-color: rgb(4, 4, 60);
+    color: rgb(228, 234, 240);
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden;  
+    
+
+}
+.bottom div{
+    text-size-adjust: 50px;
+    text-align: center;
+    border-right:rgb(243, 240, 240)1px solid;
+    justify-items: center;
+   }
+
+#comments{
+    border-right: rgb(4, 4, 60);
+} 
