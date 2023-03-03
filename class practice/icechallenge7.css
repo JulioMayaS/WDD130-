@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap');
+
+
 body{
     background-color: black;
 }
@@ -8,36 +11,59 @@ body{
 }
 img{
     width: 100%;
-    margin: 0 auto;
-    grid
 
 }
 
-.p1 {
-    background-color: ;
-
-}
 
 .container{
-    background-color: aliceblue;
+    background-color: white;
 }
-.container h1{
-    font-size: 80px;
+.container h2{
+    color: gray;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 65px;
     text-align: center;
     grid-column: 2;
     grid-row: 1;
     width: 100%;
+    font-weight: 500;
 
 }
 
 .container h4{
-    font-size: 25px;
+    font-size:  40px;
     text-align: center;
     grid-column: 2;
     grid-row: 2;
-    margin-top: -5% ;
-    color: shade rgba(0, 0, 0, 0.144);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    color: gray
+    
 }
 
-#Email
+.input{
+    display:block;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: grey solid 1px;
+    padding-left:  15px;
+}
 
+button{
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: orange;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+}
+.form{
+    width: 80%;
+    margin: auto;
+}
