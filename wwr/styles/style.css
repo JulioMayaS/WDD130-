@@ -239,6 +239,61 @@ footer .social img{
       text-align: center;
 }
 
+.Rivers{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white
+    
+}
+.Rivers img {
+    margin: auto;
+    height: 350px;
+    width: 500px;
+    border: 10px solid burlywood;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #6f7364;
+  
+}
+
+
+#idaho {
+    
+    grid-column: 1/2;
+    grid-row: 1;
+    
+}
+#idahotext{
+    text-justify: center;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1;
+    display: block;
+}
+
+#utah {
+    grid-column: 2/3;
+    grid-row: 2;
+    
+}
+#utahtext{
+    text-justify: center;
+    grid-column: 1/2;
+    grid-row: 2;
+}
+
+.arizona {
+    grid-column: 1/2;
+    grid-row: 3;
+    
+}
+#arizonatext{
+    text-justify: center;
+    grid-column: 2/3;
+    grid-row: 3;
+}
+
+
+
 @media screen and (max-width: 900px) {
 
     #hero, .home-grid {
@@ -284,7 +339,65 @@ footer .social img{
         margin-top: 25px;
     }
 
-
+    .Rivers{
+        display: block;
+        grid-template-columns: 50% 50%;
+        
+        
+    }
+    .Rivers img {
+        margin: auto;
+        height: 350px;
+        width: 500px;
+        border: 10px solid burlywood;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px #6f7364;
+      
+    }
+    
+    
+    #idaho {
+        
+        grid-column: 1/2;
+        grid-row: 1;
+        
+    }
+    #idahotext{
+        
+        text-justify: center;
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 1;
+        display: block;
+        background-color: rgb(248, 228, 202)
+    }
+    
+    #utah {
+        grid-column: 2/3;
+        grid-row: 2;
+        
+    }
+    #utahtext{
+        text-justify: center;
+        grid-column: 1/2;
+        grid-row: 2;
+        background-color: rgb(248, 228, 202)
+        
+        
+    }
+    
+    .arizona {
+        grid-column: 1/2;
+        grid-row: 3;
+        
+    }
+    #arizonatext{
+        text-justify: center;
+        grid-column: 2/3;
+        grid-row: 3;
+        background-color: rgb(248, 228, 202)
+    }
+    
 
     
 
