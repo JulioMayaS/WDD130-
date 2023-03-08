@@ -22,7 +22,7 @@ font-family:'Nunito', sans-serif;;
 }
 
 .input{
-    border: none;
+    border: none; 
     border-radius: 5px;
     margin-left: 15px;
     display: block;
