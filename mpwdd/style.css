@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+#container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    /* background-color: #fed740; */
+
+}
+
+#one{
+    box-shadow: 10px 0px #edc226;
+    border-top-right-radius:2px 5px;
+    height: 100%;
+    width: 550px;
+    z-index: 1;
+}
+
+#two{
+    background-image: url("images/Main2.jpg");
+    background-size: cover;
+    height: 740px;
+    width: 100%;
+
+}
+
+
+
+
+
+
