@@ -231,6 +231,7 @@ footer p a:hover {
 }   
 
 footer .social img{
+    display: block;
     padding-top: 15px;
 }
    
