@@ -29,7 +29,7 @@
 }
 
 .input{
-    display:block;
+    display: block;
     height: 40px;
     width: 100%;
     margin-bottom: 10px;
@@ -51,6 +51,7 @@
 
 
 button{
+    text-decoration: none;
     font-size: 20px;
     margin-top: 5px;
     color: white;
@@ -65,11 +66,7 @@ button{
     margin: auto;
 }
 
-footer .social img{
-    padding-top: 15px;
-}
 
-
-
-
+#links a:link { 
+text-decoration: none; }
 
