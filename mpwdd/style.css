@@ -70,3 +70,71 @@ button{
 #links a:link { 
 text-decoration: none; }
 
+
+@media screen and (max-width: 900px) {
+    #container{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        /* background-color: #fed740; */
+    
+    }
+    
+    #one{
+        box-shadow: 10px 0px #edc226;
+        border-top-right-radius:2px 5px;
+        height: 100%;
+        width: 550px;
+        z-index: 1;
+    }
+    
+    #two{
+        background-image: url("images/Main2.jpg");
+        background-size: cover;
+        height: 740px;
+        width: 100%;
+        
+    
+    }
+    
+    .input{
+        display: block;
+        height: 40px;
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: grey solid 1px;
+        padding-left:  15px;
+    }
+    
+    .intro{
+        text-align: center;
+        color: white;
+        margin-bottom: 10px;
+        margin-top: 10%;
+        margin-left: 25%;
+        margin-right: 50%;
+    }
+    
+    
+    
+    
+    button{
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 5px;
+        color: white;
+        background-color: orange;
+        border:none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin-left: 29%;
+    }
+    
+    #b2{
+        margin: auto;
+    }
+    
+    
+    #links a:link { 
+    text-decoration: none; }
+    }    
