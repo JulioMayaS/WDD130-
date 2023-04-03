@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Tilt+Warp&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +9,7 @@
 }
 
 header {
+    font-family: 'Josefin Sans', sans-serif;
     display: grid;
     grid-template-columns: 150px auto;
     display: auto;
@@ -64,26 +68,7 @@ nav ul {
  
  }
 
-  #hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
-}
-#hero-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
-}
 
-#hero-msg h1{
-    text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-    color: white;
-
-}
 
 footer a{
     text-decoration:none;
@@ -139,7 +124,7 @@ body {
     width: 100%;
 }
 .container {
-    
+    font-family: 'Josefin Sans', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -162,6 +147,7 @@ label {
     margin-bottom: 20px;
 }
 input[type="text"], input[type="email"], textarea, input[type="tel"] {
+
     width: 100%;
     padding: 10px;
     border: 1px solid #d7cccc;
@@ -180,6 +166,7 @@ textarea {
 }
 
 #filterq{
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -191,6 +178,7 @@ textarea {
 }
 
 #fquestion{
+    font-family: 'Josefin Sans', sans-serif;
     margin: auto;
     padding: 4px;
     grid-column: 2;
