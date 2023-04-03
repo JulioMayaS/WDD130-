@@ -4,29 +4,77 @@
 
 
 }
+h5{
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
 
 #container{
-    display: grid;
-    grid-template-columns: 30% 70%;
-
+  height: 550px;
+  display: grid;
+  grid-template-columns: 30% 70%;
 
 }
 
 #one{
-    box-shadow: 10px 0px #edc226;
-    border-top-right-radius:2px 5px;
-    height: 100%;
-    width: 550px;
-    z-index: 1;
+
+  grid-column: 1;
+  box-shadow: 10px 0px #edc226;
+  border-top-right-radius:2px 5px;
+  height: 91%;
+  width: 550px;
+  z-index: 1;
+}
+
+#two{
+  background-image: url("images/second page 2.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  
+
+}
+
+#myfriends{
+  height: 170px;
+
+}
+
+.input{
+  display: block;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: grey solid 1px;
+  padding-left:  15px;
+}
+
+.intro{
+  width: 250px;
+  text-align: center;
+  color: white;
+  margin-bottom: 62px;
+    margin-right: 201px;
+    margin-left: 460px;
+    margin-top: 30px;
+}
+
+
+#user{
+  height: 150px;
 }
 
 header {
+   
     display: grid;
     grid-template-columns: 150px auto;
     display: auto;
     background-color:#ef07b1;
     height: 85px;
     padding: 5px;
+    width: 331%
     
   }
 
